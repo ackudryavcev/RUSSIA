@@ -1,0 +1,26 @@
+.intro__text-three {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 35px 0 0 0;
+    max-width: 383px;
+}
+
+.intro__text-three p {
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text-three {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text-three {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 24px 0 0 0;
+    }
+}

@@ -1,0 +1,51 @@
+.emblem__item {
+    height: 310px;
+    margin: 82px 54px 0 0;
+}
+
+.emblem__item:first-of-type {
+    margin: 82px 56px 0 11px;
+}
+
+.emblem__item:last-of-type {
+    margin: 82px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .emblem__item {
+        width: 192px;
+        height: 260px;
+        margin: 82px 0 0 0;
+    }
+    .emblem__item:first-of-type {
+        margin: 82px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .emblem__item {
+        width: 198px;
+        height: 310px;
+        margin: 82px 48px 0 0;
+    }
+    .emblem__item:first-of-type {
+        margin: 82px 48px 0 0;
+    }
+    .emblem__item:last-of-type {
+        margin: 82px 48px 0 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .emblem__item {
+        margin: 56px auto 0;
+        width: 258px;
+        height: 310px;
+    }
+    .emblem__item:first-of-type {
+        margin: 32px auto 0;
+    }
+    .emblem__item:last-of-type {
+        margin: 56px auto 0;
+    }
+}

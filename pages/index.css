@@ -1,0 +1,57 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+@font-face {
+    src: url('../font/Inter/Inter-Regular.woff') format('woff'), url('../font/Inter/Inter-Regular.woff2') format('woff2');
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url('../font/Inter/Inter-Bold.woff') format('woff'), url('../font/Inter/Inter-Bold.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('../font/Inter/Inter-Italic.woff') format('woff'), url('../font/Inter/Inter-Italic.woff2') format('woff2');
+    font-family: 'Inter';
+    font-style: italic;
+}
+
+.page {
+    max-width: 1440px;
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+a:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+a {
+    transition: opacity 0.4s linear;
+    transition: transform 0.4s linear;
+}

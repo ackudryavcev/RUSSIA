@@ -1,0 +1,26 @@
+.barentsburg__url {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0 0 120px;
+    width: 282px;
+}
+
+@media screen and (max-width: 1024px) {
+    .barentsburg__url {
+        margin: 48px 0 0 90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .barentsburg__url {
+        margin: 56px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .barentsburg__url {
+        order: 4;
+        width: 90%;
+        margin: 24px auto 0;
+    }
+}

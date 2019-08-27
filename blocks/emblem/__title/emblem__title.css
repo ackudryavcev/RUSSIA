@@ -1,0 +1,33 @@
+.emblem__title {
+    font-family: Inter;
+    font-size: 42px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0 700px 0 0;
+    max-width: 433px;
+}
+
+@media screen and (max-width: 1024px) {
+    .emblem__title {
+        max-width: 433px;
+        margin: 0 50% 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .emblem__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 500px;
+        margin: 0 30% 0 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .emblem__title {
+        font-size: 24px;
+        line-height: 26px;
+        max-width: 343px;
+        margin: 0 auto 0;
+    }
+}

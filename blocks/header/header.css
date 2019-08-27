@@ -1,0 +1,17 @@
+@import url('./__lang-en/header__lang-en.css');
+@import url('./__lang-ru/header__lang-ru.css');
+@import url('./__lang/header__lang.css');
+@import url('./__logo/header__logo.css');
+.header {
+    margin: 30px auto 0;
+    max-width: 1184px;
+    width: 91%;
+    height: 52px;
+    position: relative;
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        margin-top: 16px;
+    }
+}

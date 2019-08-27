@@ -1,0 +1,20 @@
+.intro__content-row {
+    margin: 35px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__content-row {
+        margin: 19px 0 0 0;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        margin: 23px 0 0 0;
+    }
+}

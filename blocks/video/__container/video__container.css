@@ -1,0 +1,118 @@
+.video__container {
+    position: relative;
+    width: 583px;
+    height: 323px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.video__container iframe {
+    opacity: 0.5;
+}
+
+.video__container:first-of-type {
+    margin: 72px 0 0 0;
+}
+
+.video__container:last-of-type {
+    margin: 72px 0 0 18px;
+}
+
+.video__container:hover div {
+    opacity: 0.2;
+}
+
+.video__container:hover p {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 1184px) {
+    .video__container:first-of-type {
+        width: 456px;
+        height: 288px;
+        margin: 72px 0 0 48px;
+    }
+    .video__container:last-of-type {
+        width: 456px;
+        height: 288px;
+        margin: 72px 48px 0 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__container:first-of-type {
+        margin: 72px 0 0 0;
+        width: 456px;
+        height: 288px;
+    }
+    .video__container:last-of-type {
+        margin: 72px 0 0 16px;
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+    .video__container:first-of-type {
+        width: 352px;
+        height: 200px;
+        margin: 56px 0 0 0;
+    }
+    .video__container:last-of-type {
+        width: 352px;
+        height: 200px;
+        margin: 56px 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .video__container:first-of-type {
+        width: 370px;
+        height: 210px;
+        margin: 32px auto 0;
+    }
+    .video__container:last-of-type {
+        width: 370px;
+        height: 210px;
+        margin: 8px auto 0;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .video__container:first-of-type {
+        width: 343px;
+        height: 200px;
+        margin: 32px auto 0;
+    }
+    .video__container:last-of-type {
+        width: 343px;
+        height: 200px;
+        margin: 8px auto 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__container:first-of-type {
+        width: 343px;
+        height: 200px;
+        margin: 32px auto 0;
+    }
+    .video__container:last-of-type {
+        width: 343px;
+        height: 200px;
+        margin: 8px auto 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__container:first-of-type {
+        width: 288px;
+        height: 192px;
+        margin: 24px auto 0;
+    }
+    .video__container:last-of-type {
+        width: 288px;
+        height: 192px;
+        margin: 8px auto 0;
+    }
+}

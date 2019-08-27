@@ -1,0 +1,40 @@
+.video__subtitle {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    height: 33px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 0;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1184px) {
+    .video__subtitle {
+        top: 260px;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+    .video__subtitle:first-of-type {
+        top: 160px;
+        left: 24px;
+    }
+    .video__subtitle:last-of-type {
+        top: 163px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__subtitle:first-of-type {
+        top: 160px;
+        left: 16px;
+    }
+    .video__subtitle:last-of-type {
+        top: 160px;
+        left: 16px;
+    }
+}

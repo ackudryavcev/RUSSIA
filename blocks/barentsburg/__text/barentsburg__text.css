@@ -1,0 +1,32 @@
+.barentsburg__text {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 48px 0 0 0;
+    max-width: 380px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .barentsburg__text {
+        margin: 48px 0 0 50px;
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barentsburg__text {
+        margin: 56px 0 0 24px;
+        max-width: 405px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .barentsburg__text {
+        margin: 32px auto 0;
+        order: 5;
+        width: 90%;
+        max-width: 90%;
+    }
+}

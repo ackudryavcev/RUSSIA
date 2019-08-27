@@ -1,0 +1,33 @@
+@import url('./__container/additional__container.css');
+@import url('./__heading/additional__heading.css');
+@import url('./__item/additional__item.css');
+@import url('./__text/additional__text.css');
+.additional {
+    width: 1184px;
+    margin: 102px 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .additional {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .additional {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .additional {
+        width: 89%;
+        margin: 64px 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .additional {
+        width: 90%;
+    }
+}

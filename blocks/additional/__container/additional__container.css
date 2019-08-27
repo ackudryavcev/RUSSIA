@@ -1,0 +1,29 @@
+.additional__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 72px auto 0;
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1184px) {
+    .additional__container {
+        margin: 64px auto 0;
+        max-width: 991px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .additional__container {
+        margin: 56px auto 0;
+        max-width: 584px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .additional__container {
+        margin: 48px auto 0;
+        max-width: 284px;
+    }
+}

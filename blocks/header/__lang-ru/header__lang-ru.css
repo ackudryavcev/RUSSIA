@@ -1,0 +1,11 @@
+.header__lang-ru {
+    position: absolute;
+    right: 48px;
+    top: 17px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        right: 40px;
+    }
+}

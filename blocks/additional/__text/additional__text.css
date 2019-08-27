@@ -1,0 +1,19 @@
+.additional__text {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0px 18px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .additional__text {
+        margin: 0px 14px 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .additional__text {
+        margin: 0px 18px 30px;
+    }
+}

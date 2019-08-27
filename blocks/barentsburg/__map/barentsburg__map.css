@@ -1,0 +1,17 @@
+.barentsburg__map {
+    width: 1184px;
+    height: 100%;
+    margin: 48px 0 0 0;
+}
+
+@media screen and (max-width: 1184px) {
+    .barentsburg__map {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .barentsburg__map {
+        margin: 16px auto 0;
+    }
+}

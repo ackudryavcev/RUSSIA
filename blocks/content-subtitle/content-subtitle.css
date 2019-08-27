@@ -1,0 +1,28 @@
+.content-subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 640px;
+    margin: 48px auto 0;
+    font-weight: normal;
+}
+
+.content-subtitle:first-of-type {
+    max-width: 740px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-subtitle {
+        margin: 24px auto 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0;
+    }
+}
